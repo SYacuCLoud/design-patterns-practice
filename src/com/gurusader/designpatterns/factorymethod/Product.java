@@ -1,9 +1,9 @@
 package com.gurusader.designpatterns.factorymethod;
 
 public abstract class Product {
-	protected String owner;
+	private String owner;
 
-	public Product(String owner) {
+	Product(String owner) {
 		this.owner = owner;
 	}
 
